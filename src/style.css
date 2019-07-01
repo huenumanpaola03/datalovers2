@@ -19,7 +19,7 @@ list-style: none;
 }
 
 .menu > li {
-  /*  position: relative; */
+    position: relative;
     display: inline-block; 
 }
 .menu > li > a{
