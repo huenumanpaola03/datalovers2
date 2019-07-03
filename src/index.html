@@ -8,29 +8,41 @@
    
   </head>
   <body>
+    
     <div id="menu">
     <header>
       <nav class="navegacion">
         <ul class="menu">
-          <li> <a id= "inicio" href="#"> Inicio </a></li>
-          <li> <a id= "buscar" href="#"> Buscar</a></li>
-          <li> <a Id= "tipoPokemon" href="#">Tipo de Pokemon</a>
-          <ul class="submenu">
-           <li> <a id= "01" href="#"> Tipe1 </a></li>
-           <li> <a id= "02" href="#"> Tipe2 </a></li>
-           <li> <a id= "03" href="#"> Tipe3 </a></li>
-           <li> <a id= "04" href="#"> Tipe4 </a></li>
-          </ul>
-          
-          
-          </li>
+          <li> <a  href="inicio"> Inicio </a></li>
+          <li> <a  href="buscar"> Buscar</a></li>
+          <li> <a  href="tipoPokemon">Tipo de Pokemon</a>
+
+            <select class="form-control" id="filterType">
+
+                <option class=""role="button">Filtrar por tipo</option>
+                <option value = "Dragon">Dragon</option>
+                <option value = "Electric">Electrico</option>
+                <option value = "Fighting">Lucha</option>
+                <option value = "Fire">Fuego</option>
+                <option value = "Flying">Volador</option>
+                <option value = "Ghost">Fantasma</option>
+                <option value = "Grass">Planta</option>
+                <option value = "Ground">Tierra</option>
+                <option value = "Ice">Hielo</option>
+                <option value = "Normal">Normal</option>
+                <option value = "Poison">Veneno</option>
+                <option value = "Psychic">Psiquico</option>
+                <option value = "Rock">Roca</option>
+                <option value = "Water">Agua</option>
+            </select>
+      
+    
+       </li>
           <li> <a id= "linkJuego" href="#">Juego</a></li>
       
         </ul>
       </nav>
     </div>
-
-    <div>  </div>
 
     <div id="container_datos">
       <!-- Acá crearemos nuestro html dinámico -->
