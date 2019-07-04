@@ -11,9 +11,16 @@ window.example = example; */
 
 const datos = POKEMON.pokemon;
 for(let i = 0; i < datos.length; i++)
-
 {
-    console.log(datos[i].id);
+    console.log(datos[i]); 
+};
+
+const filterDatos = datos.filter(element =>(
+  console.log(element.type)
+)); 
+  
+
+/*  console.log(datos[i].id);
     console.log(datos[i].num);
     console.log(datos[i].name);
     console.log(datos[i].img);
@@ -29,6 +36,4 @@ for(let i = 0; i < datos.length; i++)
     console.log(datos[i].multiplers);
     console.log(datos[i].weaknesses);
     console.log(datos[i].next_evolution);
-};
-
-
+*/
