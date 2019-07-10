@@ -9,18 +9,21 @@
   </head>
   <body>
     
+    
     <div id="menu">
     <header>
       <nav class="navegacion">
         <ul class="menu">
-          <li> <a  href="inicio"> Inicio </a></li>
-          <li> <a  href="buscar"> Buscar</a></li>
           
-
-              
-            <select class="selectName" id="filterType"> 
+          <button class="inicio" id="inicio"> Inicio </button>
+          
+          
+        </div>
+        <div id="containerdatos">
+             <!--  <button  name="buscar"> Buscar</button> -->
+            <select class="filtrarTipos" id="filterType"> 
              
-                <option class="selectName"role="button">Filtrar por tipo</option>
+                <option class="filtrarTipos">Filtrar por tipo</option>
                 <option value = "Dragon">Dragon</option>
                 <option value = "Electric">Electrico</option>
                 <option value = "Fighting">Lucha</option>
@@ -39,16 +42,17 @@
       
     
        </li>
-          <li> <a id= "linkJuego" href="#">Juego</a></li>
+          <button name= "linkJuego">Juego</button>
       
         </ul>
       </nav>
-    </div>
-
-    <div id="container_datos">
-      <!-- Acá crearemos nuestro html dinámico -->
-    </div>
+   
     
+ <div id="cards"> 
+
+ </div> 
+    
+        </div id="root"></div>
     <!-- <script src="./data/injuries/injuries.js"></script> -->
     <script src="./data/pokemon/pokemon.js"></script> 
     <!-- <script src="./data/steam/steam.js"></script> -->
