@@ -1,7 +1,7 @@
 // AQUI CREO UNA COSNTANTE QUE ME MUESTRE LA DATA.
 const showData = window.POKEMON.pokemon;
-	
-         for ( let i=0; i < showData.length; i++) {
+// const container = document.getElementById("root");	
+        for ( let i=0; i < showData.length; i++) {
 
 			let result = document.createElement("div");
 			result.id = "result";
@@ -24,14 +24,22 @@ const showData = window.POKEMON.pokemon;
 			result.appendChild(imagen);
 			document.getElementById("cards").appendChild(result).innerHTML; 	
 		
-
-		console.log(result);
-	}
-	
-/*	var array1 = [];
-
-array1.forEach(function(element) {
-  console.log(element);
-});
-
-*/
+// console.log(result);
+	}	
+//////////////////////////////////////////////////////////////////////////
+  document.getElementById("filterType").addEventListener("change",() => {
+  let tipoFilter = document.getElementById("filterType").value; 
+  let lastResult = window.filterPokemon(showData,tipoFilter);
+  
+	window.cards.innerHTML ="";
+	lastResult.forEach(element => {
+		window.cards.innerHTML += `
+		<div class="img">
+	 <img src="${element.img}">
+	 </div>
+	 <h3>${element.type}</h3>
+	 <p>${element.name}</p>`
+ 
+ 
+	})
+	});

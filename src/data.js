@@ -1,16 +1,16 @@
-/*const datos = POKEMON.pokemon;
-for(let i = 0; i < datos.length; i++)
-{
-    console.log(datos[i]); 
-};
-*//////////////////////////////////////////
-
-
+/*
 
 const example = () => {
 	return 'example';
   };
   
-  window.example = example;
+  window.example = example;*/
 
 
+const filterPokemon = (showData,type) => {
+  let result= showData.filter(element => {
+  return element.type.includes(type);
+})
+  return result;
+} 
+window.filterPokemon = filterPokemon;
