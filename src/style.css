@@ -38,5 +38,99 @@ list-style: none;
     position: absolute;
 
 }
-
+header{
+    display: flex;
+    justify-content: center;
+   }
+   
+   
+   .container-button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   
+   #select-pokemon{
+    margin-bottom: 20px;
+   
+   
+   }
+   
+   .buttons{
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    max-height: 70px;
+    max-width: 140px;
+    color:#233481 ;
+    border-radius:30px;
+    margin-left:20px;
+    margin-top: 40px;
+   }
+   
+   .container-button{
+    display:flex;
+    flex-wrap: wrap;
+   }
+   #btnBuscar{
+    font-size: 20px;
+    width:200px;
+   height: 40px;
+   }
+   
+   #pok-filter{
+    margin-left:10px;
+    margin-top: 8px;
+   } 
+   
+   .pok-filter{
+    font-size: 20px;
+    width: 280px;
+    height: 40px;
+    max-height: 70px;
+    color:#20197e ;
+    border-radius:20px;
+    margin-top: 7px;
+   }
+   
+   #select-filter, #select-order{
+    display:inline-block;
+    margin-left:50px;
+   }
+   
+   #selects{
+    padding-top:50px;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+   }
+   
+   #root{
+    column-count: 4;
+    margin-top: 3%;
+    height: 20px;
+    display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 1px;
+   justify-content: center;
+   
+   }
+   
+@media(max-width:475px){
+    #root{
+      justify-content: center
+    }
+    #filterType{
+      margin-left: 0px;
+    }
+    #select-order{
+      margin-left:0px;
+    }
+    #filterPokemon {
+      margin: 0;
+    }
+   }
+   
 
