@@ -3,6 +3,7 @@ const showData = window.POKEMON.pokemon;
 // const container = document.getElementById("root");	
         for ( let i=0; i < showData.length; i++) {
 
+
 			let result = document.createElement("div");
 			result.id = "result";
 			result.className = "pekecard";
@@ -25,9 +26,8 @@ const showData = window.POKEMON.pokemon;
 			result.appendChild(imagen);
 			document.getElementById("cards").appendChild(result).innerHTML; 	
 		
-// console.log(result);
+
 	}	
-//////////////////////////////////////////////////////////////////////////
   document.getElementById("filterType").addEventListener("change",() => {
   let tipoFilter = document.getElementById("filterType").value; 
   let lastResult = window.filterPokemon(showData,tipoFilter);
@@ -44,4 +44,3 @@ const showData = window.POKEMON.pokemon;
  
 	})
 	});
-

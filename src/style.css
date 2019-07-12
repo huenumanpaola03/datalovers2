@@ -2,7 +2,7 @@
     padding: 60px;
     text-align: center;
     background: #ec0a0a;
-    color: white;
+    color: #white;
     font-size: 10px;
   }
 
@@ -17,8 +17,7 @@
     margin: 20px;
     background: #fff;
     box-shadow: 0 14px 28px #01285A40, 0 10px 10px #01285A40;    
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-
+  
 
 }
 
@@ -28,8 +27,12 @@
 
 }
 
+<<<<<<< HEAD
 .filtrarTipos{
  width: 120px;
  height: 60px;
  border-radius:15px;
 }
+=======
+
+>>>>>>> 1b8a8f9f84f778f77c7f0cf20bde465120ea07b6
