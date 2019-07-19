@@ -1,38 +1,28 @@
 .header {
-    padding: 60px;
-    text-align: center;
-    background: #ec0a0a;
-    color: #white;
-    font-size: 10px;
-  }
+  padding: 60px;
+  text-align: center;
+  background: #ec0a0a;
+  color: #white;
+  font-size: 10px;
+}
 
-  /*Pokemon Cards */
+/*Pokemon Cards */
 
 .pekecard:hover {
-  
-    border: #c7a500 3px solid;
-    border-radius: 10px;
-    padding: 20px;
-    width: 110px;
-    margin: 20px;
-    background: #fff;
-    box-shadow: 0 14px 28px #01285A40, 0 10px 10px #01285A40;    
-  
+
+  border: #c7a500 3px solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 110px;
+  margin: 20px;
+  background: #fff;
+  box-shadow: 0 14px 28px #01285A40, 0 10px 10px #01285A40;    
+
 
 }
 
 #cards {
- column-count: 4;
- background-color: rgb(184, 179, 179);
+column-count: 4;
+background-color: rgb(184, 179, 179);
 
 }
-
-<<<<<<< HEAD
-.filtrarTipos{
- width: 120px;
- height: 60px;
- border-radius:15px;
-}
-=======
-
->>>>>>> 1b8a8f9f84f778f77c7f0cf20bde465120ea07b6

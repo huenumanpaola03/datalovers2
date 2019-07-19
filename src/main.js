@@ -1,4 +1,4 @@
-// AQUI CREO UNA COSNTANTE QUE ME MUESTRE LA DATA.
+  // AQUI CREO UNA COSNTANTE QUE ME MUESTRE LA DATA.
 const showData = window.POKEMON.pokemon;
 // const container = document.getElementById("root");	
         for ( let i=0; i < showData.length; i++) {
